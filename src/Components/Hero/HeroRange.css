@@ -1,0 +1,44 @@
+
+.range {
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(to right, #cc181e 0%, #cc181e calc((100% * var(--progress)) - 5px), #777 calc((100% * var(--progress)) - 5px), #777 calc(100% * var(--progress)), #444 calc(100% * var(--progress)), #444 100%);
+    cursor: pointer;
+    height: 4px;
+    margin: 0;
+    transition: 0.1s ease-in;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.wrap {
+    margin-top: 0;
+}
+
+.wrap:hover .range {
+    height: 4px;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #aeaeae;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 5px #eaeaea;
+    height: 10px;
+    transition: 0.1s ease-in;
+    width: 10px;
+}
+
+.wrap:hover .range::-webkit-slider-thumb {
+    width: 16px;
+    height: 16px;
+}
+
+.loaded .range,
+.loaded .range::-webkit-slider-thumb {
+    transition: 0.1s ease-in;
+}
+
+:focus {
+    outline: none;
+}

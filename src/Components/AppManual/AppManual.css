@@ -1,0 +1,52 @@
+
+
+.assistant {
+    width: 70px;
+}
+
+#manualModalLabel {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.accordion-body {
+    background: rgba(250, 140, 10, 0.31);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+    border: 1px solid rgba(250, 140, 10, 0.38);
+}
+
+.accordion-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--c-white);
+    text-transform: uppercase;
+    text-shadow: var(--text-shadow);
+    background: rgba(47, 46, 46, 0.41);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(47, 46, 46, 0.3);
+}
+
+.accordion-content {
+    font-family: 'Quicksand', sans-serif;
+    font-size: clamp(16px, calc(var(--size) * 1.2), 20px);
+}
+
+.accordion-content::first-letter {
+    font-size: 1.4em;
+    padding: 5px 10px;
+    margin-right: 5px; 
+    background: #EE9966;
+    color: #FAF4F4;
+    float: left;
+    border-radius: 50% 0;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

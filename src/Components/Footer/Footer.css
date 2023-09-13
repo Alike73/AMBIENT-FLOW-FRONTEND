@@ -1,0 +1,27 @@
+
+.bi-heart-fill {
+    display: inline-block;
+    background: var(--c-red-lg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: var(--text-shadow);
+    animation: pulsate 1s infinite; /* Adjust duration as needed */
+}
+
+.myLogo {
+    width: 80px;
+    filter: var(--img-shadow);
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

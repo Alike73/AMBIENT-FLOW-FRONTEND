@@ -1,0 +1,19 @@
+
+progress {
+    position: fixed;
+    z-index: 1700;
+    top: 0;
+    left: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    border: none;
+    background: transparent;
+}
+progress::-webkit-progress-bar {
+    background: var(--c-dark-rgba);
+}
+progress::-webkit-progress-value {
+    background: var(--color-orange-md);
+}
