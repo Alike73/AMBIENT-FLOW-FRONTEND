@@ -1,6 +1,6 @@
 # AMBIENT-FLOW: Old style music turntable player
 
-[Live Demo](https://gilded-bavarois-ce9ea9.netlify.app/) | [GitHub Repository-Frontend](https://github.com/Alike73/AMBIENT-FLOW-FRONTEND) | [GitHub Repository-Backend](https://github.com/Alike73/AMBIENT-FLOW-BACKEND)
+[Live Demo](https://jovial-druid-3760a8.netlify.app/) | [GitHub Repository-Frontend](https://github.com/Alike73/AMBIENT-FLOW-FRONTEND) | [GitHub Repository-Backend](https://github.com/Alike73/AMBIENT-FLOW-BACKEND)
 
 <img src="./src/Assets/Turntable.128.png" alt="Turntable" width="150" />
 
